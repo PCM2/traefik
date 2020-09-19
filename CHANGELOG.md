@@ -1,3 +1,65 @@
+## [v2.2.11](https://github.com/containous/traefik/tree/v2.2.11) (2020-09-07)
+[All Commits](https://github.com/containous/traefik/compare/v2.2.10...v2.2.11)
+
+**Bug fixes:**
+- **[middleware]** fix: header middleware response writer. ([#7252](https://github.com/containous/traefik/pull/7252) by [ldez](https://github.com/ldez))
+
+**Documentation:**
+- **[healthcheck]** Clarified hostname documentation for load balancer healthcheck ([#7254](https://github.com/containous/traefik/pull/7254) by [AndrewSav](https://github.com/AndrewSav))
+
+## [v2.2.10](https://github.com/containous/traefik/tree/v2.2.10) (2020-09-04)
+[All Commits](https://github.com/containous/traefik/compare/v2.2.7...v2.2.10)
+
+**Bug fixes:**
+- **[acme]** Update go-acme/lego to v4.0.1 ([#7238](https://github.com/containous/traefik/pull/7238) by [ldez](https://github.com/ldez))
+- **[middleware]** Add missing IPStrategy struct tag for YAML ([#7233](https://github.com/containous/traefik/pull/7233) by [kevinpollet](https://github.com/kevinpollet))
+- **[middleware]** Headers response modifier is directly applied by headers middleware ([#7230](https://github.com/containous/traefik/pull/7230) by [juliens](https://github.com/juliens))
+- **[webui]** chore(webui): upgrade nodejs to Node current LTS ([#7125](https://github.com/containous/traefik/pull/7125) by [Slashgear](https://github.com/Slashgear))
+
+**Documentation:**
+- **[docker]** doc: fix dead link. ([#7172](https://github.com/containous/traefik/pull/7172) by [ldez](https://github.com/ldez))
+- **[k8s]** kubernetes-crd: fix whitespace in configuration examples ([#7134](https://github.com/containous/traefik/pull/7134) by [NT-florianernst](https://github.com/NT-florianernst))
+- **[k8s]** doc: replace underscore by hyphen for k8s metadata names. ([#7131](https://github.com/containous/traefik/pull/7131) by [ldez](https://github.com/ldez))
+- **[logs]** doc: added tz section to access log ([#7178](https://github.com/containous/traefik/pull/7178) by [notsureifkevin](https://github.com/notsureifkevin))
+- **[tls]** doc: Minor language improvement in TLS documentation ([#7206](https://github.com/containous/traefik/pull/7206) by [sharmarajdaksh](https://github.com/sharmarajdaksh))
+- doc: fix typo in migration guide ([#7181](https://github.com/containous/traefik/pull/7181) by [ScuttleSE](https://github.com/ScuttleSE))
+- doc: specify HostSNI rule removal only for HTTP routers ([#7237](https://github.com/containous/traefik/pull/7237) by [rtribotte](https://github.com/rtribotte))
+- Reorder migrations for v2 minor upgrades ([#7214](https://github.com/containous/traefik/pull/7214) by [peschmae](https://github.com/peschmae))
+- Harmonize docs ([#7124](https://github.com/containous/traefik/pull/7124) by [matthieuh](https://github.com/matthieuh))
+
+## [v2.2.9](https://github.com/containous/traefik/tree/v2.2.9) (2020-09-04)
+[All Commits](https://github.com/containous/traefik/compare/v2.2.8...v2.2.9)
+
+Release canceled due to a bad tag.
+
+## [v2.2.8](https://github.com/containous/traefik/tree/v2.2.8) (2020-07-28)
+[All Commits](https://github.com/containous/traefik/compare/v2.2.7...v2.2.8)
+
+**Bug fixes:**
+- **[webui]** fix: clean X-Forwarded-Prefix header for the dashboard. ([#7109](https://github.com/containous/traefik/pull/7109) by [ldez](https://github.com/ldez))
+
+**Documentation:**
+- **[docker]** spelling(docs/content/routing/providers/docker.md) ([#7101](https://github.com/containous/traefik/pull/7101) by [szczot3k](https://github.com/szczot3k))
+- **[k8s]** doc: add name of used key for kubernetes client auth ([#7068](https://github.com/containous/traefik/pull/7068) by [smueller18](https://github.com/smueller18))
+
+## [v2.2.7](https://github.com/containous/traefik/tree/v2.2.7) (2020-07-20)
+[All Commits](https://github.com/containous/traefik/compare/v2.2.6...v2.2.7)
+
+**Bug fixes:**
+- **[server,tls]** fix: drop host port to compare with SNI. ([#7071](https://github.com/containous/traefik/pull/7071) by [ldez](https://github.com/ldez))
+
+## [v2.2.6](https://github.com/containous/traefik/tree/v2.2.6) (2020-07-17)
+[All Commits](https://github.com/containous/traefik/compare/v2.2.5...v2.2.6)
+
+**Bug fixes:**
+- **[logs]** fix: access logs header names filtering is case insensitive ([#6900](https://github.com/containous/traefik/pull/6900) by [mjeanroy](https://github.com/mjeanroy))
+- **[provider]** Get Entrypoints Port Address without protocol for redirect ([#7047](https://github.com/containous/traefik/pull/7047) by [SantoDE](https://github.com/SantoDE))
+- **[tls]** Fix domain fronting ([#7064](https://github.com/containous/traefik/pull/7064) by [juliens](https://github.com/juliens))
+
+**Documentation:**
+- fix: documentation references. ([#7049](https://github.com/containous/traefik/pull/7049) by [ldez](https://github.com/ldez))
+- Add example for entrypoint on one ip address ([#6483](https://github.com/containous/traefik/pull/6483) by [SimonHeimberg](https://github.com/SimonHeimberg))
+
 ## [v2.2.5](https://github.com/containous/traefik/tree/v2.2.5) (2020-07-13)
 [All Commits](https://github.com/containous/traefik/compare/v2.2.4...v2.2.5)
 
